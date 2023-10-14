@@ -3,7 +3,7 @@ import Statistics from "./Stats";
 function SearchBar() {
   return (
     <>
-      <div className="nav">
+      <div className="navbar">
         <div className="Page-name">
           <h2>Overview</h2>
         </div>

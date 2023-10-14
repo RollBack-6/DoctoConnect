@@ -10,6 +10,9 @@ function Selection(props) {
     props.toggleOverview();
   };
 
+  const handlePatientClick = () => {
+    props.togglePatient();
+  };
   return (
     <>
       <div className="Logo">
@@ -39,7 +42,7 @@ function Selection(props) {
 
       <div className="Button_aligment">
         <img className="image" src="./images/patient.png" alt="Patient" />
-        <button className="btn"> Patient</button>
+        <button className="btn" onClick={handlePatientClick}>Patient</button>
       </div>
 
       <div className="Button_aligment">
