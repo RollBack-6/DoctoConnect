@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
 import "./App.css";
 import Selection from "./Components/LeftColumn/Selection";
+<<<<<<< HEAD
+import Patient from "./Components/Right_Column/Patient/Patient";
+=======
 import RegistrationForm from "./Components/Right_Column/registerPatient/registerPatient.jsx";
 import SearchBar from "./Components/Right_Column/Overview/SearchBar.jsx";
+>>>>>>> 142fadad8f97be2e21082619f91bece2f92eeda2
 
 function App() {
   const [showRegistrationForm, setShowRegistrationForm] = useState(false);
@@ -28,8 +32,12 @@ function App() {
           />
         </div>
         <div className="column right">
+<<<<<<< HEAD
+          <Patient />
+=======
           {showRegistrationForm && <RegistrationForm/>}
           {showOverview && <SearchBar/>}
+>>>>>>> 142fadad8f97be2e21082619f91bece2f92eeda2
         </div>
       </div>
     </>
