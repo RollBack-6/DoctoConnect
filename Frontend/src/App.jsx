@@ -1,6 +1,7 @@
 import "./App.css";
 import SearchBar from "./Components/Right_Column/Overview/SearchBar";
 import Selection from "./Components/LeftColumn/Selection";
+import RegistrationForm from "./Components/Right_Column/registerPatient/registerPatient.jsx";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
           <Selection/>
         </div>
         <div className="column right">
-          <SearchBar/>
+          {/* <SearchBar/> */}
+          <RegistrationForm/>
         </div>
       </div>
     </>
