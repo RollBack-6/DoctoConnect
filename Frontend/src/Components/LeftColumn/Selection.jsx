@@ -6,20 +6,17 @@ function Selection(props) {
     props.toggleRegistrationForm();
   };
 
-<<<<<<< HEAD
-          <div className="Button_aligment">
-            <img
-              className="image"
-              src="./images/Appointments.png"
-              alt="Appointment"
-            />
-            <button className="btn">Appointment</button>
-          </div>
-=======
   const handleOverviewClick = () => {
     props.toggleOverview();
   };
->>>>>>> 6745efb00c0295d06335415fca5488b155b3a427
+
+  const handlePatientClick = () => {
+    props.togglePatient();
+  };
+
+  const handleDoctorClick = () => {
+    props.toggleDoctor();
+  };
 
   return (
     <>
@@ -34,7 +31,7 @@ function Selection(props) {
       </div>
 
       <div className="Button_aligment">
-        <img className="image" src="./images/Appoinments.png" alt="Appoinment" />
+        <img className="image" src="./images/Appointments.png" alt="Appointment" />
         <button className="btn">Appointment</button>
       </div>
 
@@ -45,12 +42,12 @@ function Selection(props) {
 
       <div className="Button_aligment">
         <img className="image" src="./images/Doctors.png" alt="Doctor" />
-        <button className="btn"> Doctor</button>
+        <button className="btn" onClick={handleDoctorClick}> Doctor</button>
       </div>
 
       <div className="Button_aligment">
         <img className="image" src="./images/patient.png" alt="Patient" />
-        <button className="btn"> Patient</button>
+        <button className="btn" onClick={handlePatientClick}>Patient</button>
       </div>
 
       <div className="Button_aligment">
