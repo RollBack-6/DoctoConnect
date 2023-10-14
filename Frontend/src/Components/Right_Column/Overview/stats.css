@@ -1,0 +1,23 @@
+.Appoinment-stat {
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: rgb(83, 83, 83);
+  border: "1px";
+  padding: 10px 15px;
+  width: 250px;
+}
+.Stat-cointainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.stat-img {
+  mix-blend-mode: multiply;
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
