@@ -1,5 +1,5 @@
 import "./App.css";
-import SearchBar from "./Components/Right_Column/Overview/SearchBar";
+import Doctor from "./Components/Right_Column/Doctor/Doctor.jsx";
 import Selection from "./Components/LeftColumn/Selection";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
           <Selection/>
         </div>
         <div className="column right">
-          <SearchBar/>
+          <Doctor/>
         </div>
       </div>
     </>

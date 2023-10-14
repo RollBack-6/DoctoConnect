@@ -16,8 +16,8 @@ function Selection(){
           <div className="Button_aligment">
             <img
               className="image"
-              src="./images/Appoinments.png"
-              alt="Appoinment"
+              src="./images/Appointments.png"
+              alt="Appointment"
             />
             <button className="btn">Appointment</button>
           </div>
