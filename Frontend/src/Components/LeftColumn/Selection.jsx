@@ -26,7 +26,7 @@ function Selection(props) {
       </div>
 
       <div className="Button_aligment">
-        <img className="image" src="./images/Appoinments.png" alt="Appoinment" />
+        <img className="image" src="./images/Appointments.png" alt="Appointment" />
         <button className="btn">Appointment</button>
       </div>
 
