@@ -1,0 +1,27 @@
+*{
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+/* Create two unequal columns that floats next to each other */
+.column {
+  width: 1440px;
+  height: 1024px; 
+  float: left;
+  padding: 0.5%;
+}
+
+.left {
+  background:rgb(217, 217, 217);
+  width: 20%;
+}
+
+.right {
+  width: 80%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

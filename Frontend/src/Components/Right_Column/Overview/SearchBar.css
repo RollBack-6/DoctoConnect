@@ -1,0 +1,28 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.aligment{
+   display: flex;
+   margin-top: 1%;
+   margin-bottom: 9%;
+   flex-direction: row;
+  
+}
+
+.H_image{
+  max-width: 100%;
+  margin-left: 10px;
+}
+
+.N_image{
+  max-width: 100%;
+  margin-top: 5px;
+}
+/* ----------------------------------------- */
