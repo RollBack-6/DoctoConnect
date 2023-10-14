@@ -11,8 +11,7 @@ function App() {
           <Selection/>
         </div>
         <div className="column right">
-          {/* <SearchBar/> */}
-          <RegistrationForm/>
+           <SearchBar/>
         </div>
       </div>
     </>
