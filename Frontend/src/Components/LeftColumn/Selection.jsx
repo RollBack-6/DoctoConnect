@@ -6,9 +6,20 @@ function Selection(props) {
     props.toggleRegistrationForm();
   };
 
+<<<<<<< HEAD
+          <div className="Button_aligment">
+            <img
+              className="image"
+              src="./images/Appointments.png"
+              alt="Appointment"
+            />
+            <button className="btn">Appointment</button>
+          </div>
+=======
   const handleOverviewClick = () => {
     props.toggleOverview();
   };
+>>>>>>> 6745efb00c0295d06335415fca5488b155b3a427
 
   return (
     <>
