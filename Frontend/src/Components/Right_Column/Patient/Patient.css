@@ -1,0 +1,10 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+ 

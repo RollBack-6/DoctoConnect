@@ -2,11 +2,12 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.nav{
+.navbar{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin-bottom:0px;
+  justify-content: center;
+  align-items: start;
+  justify-content: space-around;
 }
 
 .aligment{

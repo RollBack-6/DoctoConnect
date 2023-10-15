@@ -1,0 +1,46 @@
+/* Calendar.css */
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+.calendar {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border:1px black;
+  border-style: solid;
+  margin-top: 1%;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: white;
+  width: 15%;
+}
+
+/* Style for the date picker input */
+.react-datepicker-wrapper {
+  display: inline-block;
+  width:125px;
+}
+
+.react-datepicker__input-container {
+  display: block;
+  margin: none;
+}
+
+.react-datepicker__input-container input {
+  width: 70%;
+  border: none;
+  outline: none;
+}
+
+.icon{
+  margin-right: 1%;
+  justify-content: space-between; 
+}
+
+.nav{
+  display: flex;
+  flex-direction: column;
+}
