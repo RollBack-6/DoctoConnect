@@ -30,7 +30,6 @@ function App() {
         <div className="column right">
           {showRegistrationForm && <RegistrationForm/>}
           {showOverview && <SearchBar/>}
-           <SearchBar/>
         </div>
       </div>
     </>
