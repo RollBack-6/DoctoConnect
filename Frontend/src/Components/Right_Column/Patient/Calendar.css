@@ -24,7 +24,7 @@
 /* Style for the date picker input */
 .react-datepicker-wrapper {
   display: inline-block;
-  width: 125px;
+  width: 120px;
 }
 
 .react-datepicker__input-container {
@@ -34,14 +34,14 @@
 }
 
 .react-datepicker__input-container input {
-  width: 70%;
+  width: 60%;
   border: none;
   outline: none;
 }
 
 .icon{
-  margin-right: 15%; 
-  margin-left: -20%;
+   margin-right: 15%; 
+  
   justify-content: space-between; 
   
 }
