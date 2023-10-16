@@ -1,11 +1,16 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import "./App.css";
 import Selection from "./Components/LeftColumn/Selection";
 import RegistrationForm from "./Components/Right_Column/registerPatient/registerPatient.jsx";
 import SearchBar from "./Components/Right_Column/Overview/SearchBar.jsx";
 import Patient from "./Components/Right_Column/Patient/Patient.jsx"
 import Doctor from "./Components/Right_Column/Doctor/Doctor.jsx";
+<<<<<<< HEAD
 import LoginPage from './Components/Login/Loginpage';
+=======
+import { BrowserRouter,Routes, Route } from 'react-router-dom';
+
+>>>>>>> 87bf34598778457576e4cfcf2cf83e15add699a0
 
 function App() {
   const [showRegistrationForm, setShowRegistrationForm] = useState(false);

@@ -5,9 +5,8 @@
 .navbar{
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: start;
   justify-content: space-around;
+  margin-bottom: -80px  ;
 }
 
 .aligment{
@@ -47,4 +46,10 @@
   height: fit-content;
   justify-content: center;
 
+}
+
+.Charts{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
