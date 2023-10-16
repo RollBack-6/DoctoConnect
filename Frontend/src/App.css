@@ -12,15 +12,9 @@ font-family: 'Yuji Hentaigana Akari', cursive;
 }
 
 .left {
-<<<<<<< HEAD
-  background:transparent;
-  width: 20%;
-  height: 110%;
-=======
   width: 20%;
   border-radius: 10px;
   background-color: transparent;
->>>>>>> 02b2ec3e6200317569ed8c2adc3d9a0394a24897
 }
 
 .right {
@@ -34,10 +28,3 @@ font-family: 'Yuji Hentaigana Akari', cursive;
   display: table;
   clear: both;
 }
-<<<<<<< HEAD
-
-.input{
-  width: 100% !important;
-}
-=======
->>>>>>> 02b2ec3e6200317569ed8c2adc3d9a0394a24897
