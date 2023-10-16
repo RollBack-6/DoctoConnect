@@ -11,8 +11,9 @@
 }
 
 .left {
-  background:rgb(217, 217, 217);
+  background:transparent;
   width: 20%;
+  height: 110%;
 }
 
 .right {
@@ -24,4 +25,8 @@
   content: "";
   display: table;
   clear: both;
+}
+
+.input{
+  width: 100% !important;
 }

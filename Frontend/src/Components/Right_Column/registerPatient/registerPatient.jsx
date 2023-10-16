@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./registerPatient.css";
+import DatePickerComponent from './AppointmentTimeComponent';
 
 const RegistrationForm = () => {
   // Define state variables for form fields
@@ -156,18 +157,10 @@ const RegistrationForm = () => {
           {/* appointmentTime */}
           <div className='appointmentTime'>
             <label htmlFor="appointmentTime">Appointment Time:</label>
-            <select
-              id="appointmentTime"
-              name="appointmentTime"
-              value={formData.appointmentTime}
-              onChange={handleChange}
-              required
-            >
-              <option value="morning">Morning</option>
-              <option value="afternoon">Afternoon</option>
-              <option value="evening">Evening</option>
-            </select>
+            <DatePickerComponent/>
           </div>
+          
+
           <div className='divButton'>
             <button type="submit" className='submitButton'>Register</button>
           </div>
