@@ -55,8 +55,8 @@ function App() {
         </div>
         <div className="column right">
           {showRegistrationForm && <RegistrationForm/>}
-          {<LoginPage/>}
-          {/* {showOverview && <SearchBar/>} */}
+          {/* {<LoginPage/>} */}
+          {showOverview && <SearchBar/>}
           {showPatient && <Patient/>}
           {showDoctor && <Doctor/>}
         </div>

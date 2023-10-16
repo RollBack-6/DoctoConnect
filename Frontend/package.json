@@ -16,11 +16,7 @@
     "react-chartjs-2": "^5.2.0",
     "react-datepicker": "^4.20.0",
     "react-dom": "^18.2.0",
-<<<<<<< HEAD
-    "react-icons": "^4.11.0"
-=======
     "react-router-dom": "^6.16.0"
->>>>>>> 87bf34598778457576e4cfcf2cf83e15add699a0
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
