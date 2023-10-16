@@ -70,8 +70,4 @@ function Selection(props) {
   );
 }
 
-<<<<<<< HEAD
-export default Selection;
-=======
 export default Selection;
->>>>>>> fcb68b6711138e72db5b1cf0d6bc93caf823b395
