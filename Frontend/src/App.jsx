@@ -5,6 +5,7 @@ import RegistrationForm from "./Components/Right_Column/registerPatient/register
 import SearchBar from "./Components/Right_Column/Overview/SearchBar.jsx";
 import Patient from "./Components/Right_Column/Patient/Patient.jsx"
 import Doctor from "./Components/Right_Column/Doctor/Doctor.jsx";
+import LoginPage from './Components/Login/Loginpage';
 
 function App() {
   const [showRegistrationForm, setShowRegistrationForm] = useState(false);
@@ -53,7 +54,8 @@ function App() {
         </div>
         <div className="column right">
           {showRegistrationForm && <RegistrationForm/>}
-          {showOverview && <SearchBar/>}
+          {<LoginPage/>}
+          {/* {showOverview && <SearchBar/>} */}
           {showPatient && <Patient/>}
           {showDoctor && <Doctor/>}
         </div>
