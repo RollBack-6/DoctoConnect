@@ -2,14 +2,15 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.navbar{
+.navbar-doctor{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: rgba(182, 176, 176, 0.413);
 }
 
 .searchbar{
-    margin: 2%;
+    margin: 10px;
     border-style: solid;
     display: flex;
     border-width: thin;
@@ -17,6 +18,8 @@
     border-radius: 30px;
     padding: 10px;
     height: 35px;
+    background-color: white;
+
 }
 
 .searchinput {
@@ -24,11 +27,38 @@
     height: 25px;
     border: none;
     padding: 10px;
+    background-color: transparent;
     outline-color: transparent;
 }
 
 .searchbutton {
-    background-color: white;
+    background-color: transparent;
     border: none;
     justify-content: space-between;
 }
+
+.blankline1 {
+    padding-top: 20px;
+    background-color: white;
+}
+
+.doctor-navbar2 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #b6b0b069;
+}
+
+.speciality-dropdown {
+    display: flex;
+    align-items: center;
+}
+
+.unavailable {
+    margin-left: 80px;
+}
+
+
+
