@@ -7,7 +7,7 @@ function Patient() {
     <>
       <div className="nav">
         <h2>Patient</h2>
-         <div >
+         <div>
            <Calendar />
           </div>
       </div>
