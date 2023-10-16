@@ -1,22 +1,25 @@
-*{
-  font-family: 'Roboto', sans-serif;
+* {
+  font-family: 'Lato', sans-serif;
+font-family: 'Yuji Hentaigana Akari', cursive;
   box-sizing: border-box;
 }
 /* Create two unequal columns that floats next to each other */
 .column {
   width: max-content;
-  height: max-content; 
+  height: max-content;
   float: left;
   padding: 0.5%;
 }
 
 .left {
-  background:rgb(217, 217, 217);
   width: 20%;
+  border-radius: 10px;
+  background-color: transparent;
 }
 
 .right {
   width: 80%;
+
 }
 
 /* Clear floats after the columns */
