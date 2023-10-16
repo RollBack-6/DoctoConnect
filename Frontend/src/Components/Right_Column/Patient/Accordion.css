@@ -9,3 +9,19 @@
     transition: 0.4s;
     margin-top: 1%;
   }
+.drp{
+  margin-left: 93%;
+}
+.drpbottom{
+  margin-left: 90%;
+ 
+}
+.hidden {
+  visibility: hidden;
+}
+.input{
+  margin-top: 1%;
+  height: 3%;
+  width: 15%;
+  margin-bottom: 1%;
+}

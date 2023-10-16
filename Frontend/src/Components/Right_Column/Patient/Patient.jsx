@@ -2,6 +2,8 @@ import React from "react";
 import Calendar from "./Calendar";
 
 import "./Accordion.css";
+import { Accordion } from "primereact/accordion";
+import AccordionTable from "./Accordion";
 function Patient() {
   return (
     <>
