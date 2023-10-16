@@ -1,6 +1,6 @@
 import React from "react";
 import Calendar from "./Calendar";
-import Accordion from "./Accordion";
+
 import "./Accordion.css";
 function Patient() {
   return (
@@ -12,8 +12,7 @@ function Patient() {
           </div>
       </div>
       <div className="App">
-        <Accordion />
-        {/* You can use multiple instances of AccordionTable if needed */}
+       <AccordionTable/>
       </div>
     </>
   );

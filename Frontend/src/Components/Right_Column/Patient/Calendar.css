@@ -12,21 +12,25 @@
   border:1px black;
   border-style: solid;
   margin-top: 1%;
-  padding: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   border-radius: 10px;
   background-color: white;
   width: 15%;
+  
 }
 
 /* Style for the date picker input */
 .react-datepicker-wrapper {
   display: inline-block;
-  width:125px;
+  width: 125px;
 }
 
 .react-datepicker__input-container {
   display: block;
   margin: none;
+  width:fit-content;
 }
 
 .react-datepicker__input-container input {
@@ -36,8 +40,9 @@
 }
 
 .icon{
-  margin-right: 1%;
+ 
   justify-content: space-between; 
+  
 }
 
 .nav{

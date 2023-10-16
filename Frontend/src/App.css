@@ -5,7 +5,7 @@
 /* Create two unequal columns that floats next to each other */
 .column {
   width: max-content;
-  height: max-content; 
+  height: 100%; 
   float: left;
   padding: 0.5%;
 }
