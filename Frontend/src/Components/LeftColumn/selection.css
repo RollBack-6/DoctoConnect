@@ -1,15 +1,27 @@
+
+.selection {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20%; /* Adjust this value to set the width as needed */
+  height: 100%;
+  background: linear-gradient(to top,#a3eff1 5%,#54d5f1 35%,#0d99ba 75%);
+  padding: 0% 2%;
+}
+
+
 .btn{
-  
     padding: 0.6em 1.2em;
     background-color:transparent;
-    color: black;
+    color: rgb(0, 0, 0);
     display: block;
     width: 50%;
     cursor: pointer;
     border: none;
-    font-size: 20px;
+    font-size: 24px;
     text-wrap: nowrap;
     text-align: left;
+    font-family: 'Times New Roman', Times, serif;
   }
   .image{
     max-width: 100%;
@@ -52,5 +64,6 @@
   
   .hearder{
     padding-bottom: 20px;
-    color: rgb(0,86, 107);
-  }
+    color: rgb(0,86, 107);
+  }
+
