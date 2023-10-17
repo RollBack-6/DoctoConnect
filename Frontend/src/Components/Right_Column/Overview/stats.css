@@ -7,11 +7,13 @@
   border: "1px";
   padding: 10px 15px;
   width: 250px;
+  border-width: 2px;
 }
 .Stat-cointainer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  border-width: 1px;
 }
 
 .stat-img {
