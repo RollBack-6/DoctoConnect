@@ -6,31 +6,32 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgba(182, 176, 176, 0.413);
 }
 
-.blankline1 {
-    padding-top: 20px;
-    background-color: white;
+.searchinputbar {
+    width: 300px;
+    height: 35px;
+    box-shadow: none;
+    display: flex;
+    margin-bottom: 5px;
+    border-color: #949292ef;
+
 }
 
 .doctor-navbar2 {
     padding-top: 5px;
     padding-bottom: 5px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    background-color: rgba(182, 176, 176, 0.413);
-}
-
-.speciality-dropdown {
-    display: flex;
-    align-items: center;
+    justify-content: space-between;
 }
 
 .unavailable {
     margin-left: 80px;
 }
+
 .doctor-table {
-    background-color: rgba(182, 176, 176, 0.413);
+    margin-top: 30px;
 }
+
+

@@ -13,8 +13,8 @@ import { BrowserRouter,Routes, Route } from 'react-router-dom';
 function App() {
   const [showRegistrationForm, setShowRegistrationForm] = useState(false);
   const [showOverview, setShowOverview] = useState(true);
-  const [showAppointment, setShowAppointment] = useState(false);
-  const [showDoctor, setShowDoctor] = useState(false); 
+  const [showPatient, setShowPatient] = useState(false);
+  const [showDoctor, setShowDoctor] = useState(false); // Set initial state to true
 
   const toggleRegistrationForm = () => {
     setShowRegistrationForm(true);
