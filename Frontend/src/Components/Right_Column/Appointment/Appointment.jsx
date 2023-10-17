@@ -4,11 +4,11 @@ import Calendar from "./Calendar";
 import "./Accordion.css";
 import { Accordion } from "primereact/accordion";
 import AccordionTable from "./Accordion";
-function Patient() {
+function Appointment() {
   return (
     <>
       <div className="nav">
-        <h2>Patient</h2>
+        <h2>Appointment</h2>
          <div>
            <Calendar />
           </div>
@@ -20,4 +20,4 @@ function Patient() {
   );
 }
 
-export default Patient;
+export default Appointment;
