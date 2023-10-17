@@ -15,6 +15,24 @@ const AccordionTable = () => {
   });
   const [accordion1Visible, setAccordion1Visible] = useState(false);
   const [accordion2Visible, setAccordion2Visible] = useState(false);
+  const [selectedDate, setSelectedDate] = useState(null); // Store the selected date
+  const [filteredData, setFilteredData] = useState([]);
+
+  const handleDateSelect = (date) => {
+    setSelectedDate(date); // Update the selected date
+    filterDataByDate(date); // Filter data based on the selected date
+  };
+  const filterDataByDate = (date) => {
+    if (date) {
+      // Filter the data based on the selected date
+      const filtered = data.filter((item) => item.date === date);
+      setFilteredData(filtered);
+    } else {
+      // If no date is selected, show all data
+      setFilteredData(data);
+    }
+  };
+
 
   const [data, setData] = useState([
     {
@@ -233,7 +251,7 @@ const AccordionTable = () => {
                     <Column field="doctor" header="Doctor Name" />
                     <Column field="date" header="Date" />
                     <Column field="time" header="Time" />
-                    <Column field="status" header="status"/>
+                    <Column field="status" header="Status"/>
                   </DataTable>
                 </TabPanel>
                 <TabPanel header="Completed">
@@ -258,7 +276,7 @@ const AccordionTable = () => {
                     <Column field="doctor" header="Doctor Name" />
                     <Column field="date" header="Date" />
                     <Column field="time" header="Time" />
-                    <Column field="status" header="status"/>
+                    <Column field="status" header="Status"/>
                   </DataTable>
                 </TabPanel>
                 <TabPanel header="Cancelled">
@@ -283,7 +301,7 @@ const AccordionTable = () => {
                     <Column field="doctor" header="Doctor Name" />
                     <Column field="date" header="Date" />
                     <Column field="time" header="Time" />
-                    <Column field="status" header="status"/>
+                    <Column field="status" header="Status"/>
                   </DataTable>
                 </TabPanel>
               </TabView>

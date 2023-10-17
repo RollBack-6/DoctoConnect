@@ -1,9 +1,11 @@
+
 import { useState } from 'react';
 import "./App.css";
 import Selection from "./Components/LeftColumn/Selection";
-import RegistrationForm from "./Components/Right_Column/registerPatient/registerPatient.jsx";
+import RegistrationForm from
+"./Components/Right_Column/registerPatient/registerPatient.jsx";
 import SearchBar from "./Components/Right_Column/Overview/SearchBar.jsx";
-import Patient from "./Components/Right_Column/Patient/Patient.jsx"
+import Appointment from './Components/Right_Column/Appointment/Appointment.jsx';
 import Doctor from "./Components/Right_Column/Doctor/Doctor.jsx";
 import { BrowserRouter,Routes, Route } from 'react-router-dom';
 
@@ -11,34 +13,34 @@ import { BrowserRouter,Routes, Route } from 'react-router-dom';
 function App() {
   const [showRegistrationForm, setShowRegistrationForm] = useState(false);
   const [showOverview, setShowOverview] = useState(true);
-  const [showPatient, setShowPatient] = useState(false);
-  const [showDoctor, setShowDoctor] = useState(false); // Set initial state to true
+  const [showAppointment, setShowAppointment] = useState(false);
+  const [showDoctor, setShowDoctor] = useState(false); 
 
   const toggleRegistrationForm = () => {
     setShowRegistrationForm(true);
     setShowOverview(false);
-    setShowPatient(false);
+    setShowAppointment(false);
     setShowDoctor(false);
   };
 
   const toggleOverview = () => {
     setShowRegistrationForm(false);
     setShowOverview(true);
-    setShowPatient(false);
+    setShowAppointment(false);
     setShowDoctor(false);
   };
 
-  const togglePatient = () => {
+  const toggleAppointment = () => {
     setShowRegistrationForm(false);
     setShowOverview(false);
-    setShowPatient(true);
+    setShowAppointment(true);
     setShowDoctor(false);
   };
 
   const toggleDoctor = () => {
     setShowRegistrationForm(false);
     setShowOverview(false);
-    setShowPatient(false);
+    setShowAppointment(false);
     setShowDoctor(true);
   };
 
@@ -46,10 +48,10 @@ function App() {
     <>
       <div className="row">
         <div className="column left">
-          <Selection 
+          <Selection
             toggleRegistrationForm={toggleRegistrationForm}
             toggleOverview={toggleOverview}
-            togglePatient={togglePatient}
+            toggleAppointment={toggleAppointment}
             toggleDoctor={toggleDoctor}
           />
         </div>
@@ -57,7 +59,7 @@ function App() {
           {showRegistrationForm && <RegistrationForm/>}
           {/* {<LoginPage/>} */}
           {showOverview && <SearchBar/>}
-          {showPatient && <Patient/>}
+          {showAppointment && <Appointment/>}
           {showDoctor && <Doctor/>}
         </div>
       </div>

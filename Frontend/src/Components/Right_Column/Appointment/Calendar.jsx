@@ -9,6 +9,7 @@ function Calendar() {
   
     const handleDateChange = (date) => {
       setSelectedDate(date);
+      onDateSelect(date);
     };
   
     return (
