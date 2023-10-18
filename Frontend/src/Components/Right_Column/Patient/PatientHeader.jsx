@@ -8,6 +8,8 @@ import "primereact/resources/primereact.min.css";
 import { FilterMatchMode } from "primereact/api";
 import { InputText } from "primereact/inputtext";
 
+//import Patient from './Components/Right_Column/Patient/Patient.jsx'
+
 function PatientHeader() {
   const [filters, setFilters] = useState({
     global: { value: null, matchMode: FilterMatchMode.CONTAINS },
