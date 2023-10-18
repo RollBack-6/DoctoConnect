@@ -5,7 +5,7 @@
 .navbar{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-bottom: -80px  ;
 }
 
@@ -14,6 +14,8 @@
    margin-top: 1%;
    margin-bottom: 9%;
    flex-direction: row;
+   justify-content: space-between;
+   
   
 }
 
@@ -24,12 +26,15 @@
 
 .N_image{
   max-width: 100%;
-  margin-top: 5px;
+  margin-top: 10px;
+  margin-right: 5px;
 }
 
 .img-btn{
   border: none;
   background-color: transparent;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
 }
 
 .inp{
@@ -45,11 +50,29 @@
   border-color: rgb(65, 65, 65);
   height: fit-content;
   justify-content: center;
+  
 
 }
 
 .Charts{
+ margin-top: 10px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: start;
+}
+.Line{
+  border-style: solid;
+  border-radius:15px;
+  border-color: rgb(65, 65, 65);
+  border-width: 2px;
+  padding: 10px;  
+}
+.Bar{
+  margin-left: 20px;
+  border-style: solid;
+  border-radius:15px;
+  border-color: rgb(65, 65, 65);
+  border-width: 2px;
+  padding: 10px;
+  
 }
