@@ -1,5 +1,4 @@
-import { Routes,Route } from 'react-router-dom';
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import "./App.css";
 import Selection from "./Components/LeftColumn/Selection";
 import RegistrationForm from "./Components/Right_Column/registerPatient/registerPatient.jsx";
@@ -12,15 +11,15 @@ function App() {
     <>
       <div className="row">
         <div className="column left">
-        <Selection/>
+          <Selection />
         </div>
         <div className="column right">
-        <Routes>
-          <Route path='Overview' element={<SearchBar/>}/>
-          <Route path='Appointment' element={<Appointment/>}/>
-          <Route path='Doctor' element={<Doctor/>}/>
-          <Route path='Register-Patient' element={<RegistrationForm/>}/>
-        </Routes>
+          <Routes>
+            <Route path='/Overview' element={<SearchBar />} />
+            <Route path='/Appointment' element={<Appointment />} />
+            <Route path='/Doctor' element={<Doctor />} />
+            <Route path='/Register-Patient' element={<RegistrationForm />} />
+          </Routes>
         </div>
       </div>
     </>
