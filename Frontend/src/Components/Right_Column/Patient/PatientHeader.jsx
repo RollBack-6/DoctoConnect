@@ -8,8 +8,6 @@ import "primereact/resources/primereact.min.css";
 import { FilterMatchMode } from "primereact/api";
 import { InputText } from "primereact/inputtext";
 
-//import Patient from './Components/Right_Column/Patient/Patient.jsx'
-
 function PatientHeader() {
   const [filters, setFilters] = useState({
     global: { value: null, matchMode: FilterMatchMode.CONTAINS },
@@ -24,8 +22,8 @@ function PatientHeader() {
       patient_gender: "Male",
       patient_phone_no: "9823754323",
       patient_email: "avinashpadale@gmail.com",
-      treatment: ,
-      dr_name: ,
+      treatment: "Eye Infection",
+      dr_name: "Dev Thakur",
     },
     {
       date: "07/05/2022",
@@ -35,8 +33,8 @@ function PatientHeader() {
       patient_gender: "Female",
       patient_phone_no: "7566347903",
       patient_email: "smithagrawal@gmail.com",
-      treatment: ,
-      dr_name: ,
+      treatment: "Migrain",
+      dr_name: "Rutuj Shah",
     },
     {
       date: "01/06/2022",
@@ -46,8 +44,8 @@ function PatientHeader() {
       patient_gender: "Female",
       patient_phone_no: "9765433545",
       patient_email: "rashmikaingle@gmail.com",
-      treatment: ,
-      dr_name: ,
+      treatment: "PCOD",
+      dr_name: "Riya Sharma",
     },
     {
       date: "23/07/2022",
@@ -57,8 +55,8 @@ function PatientHeader() {
       patient_gender: "Male",
       patient_phone_no: "6443676901",
       patient_email: "arjunsawant@gmail.com",
-      treatment: ,
-      dr_name: ,
+      treatment: "Pneumonia",
+      dr_name: "Preeti Deshmukh",
     },
     {
       date: "19/08/2022",
@@ -68,8 +66,8 @@ function PatientHeader() {
       patient_gender: "Male",
       patient_phone_no: "7576708924",
       patient_email: "rahuldhore@gmail.com",
-      treatment: ,
-      dr_name: ,
+      treatment: "Root canal",
+      dr_name: "Naman Gupta",
     },
     {
       date: "02/09/2022",
@@ -79,8 +77,8 @@ function PatientHeader() {
       patient_gender: "Female",
       patient_phone_no: "9766324335",
       patient_email: "priyadesai@gmail.com",
-      treatment: ,
-      dr_name: ,
+      treatment: "PCOD",
+      dr_name: "Riya Sharma",
     },
     {
       date: "15/10/2022",
@@ -90,8 +88,8 @@ function PatientHeader() {
       patient_gender: "Female",
       patient_phone_no: "9765435320",
       patient_email: "pranalijadhav@gmail.com",
-      treatment: ,
-      dr_name: ,
+      treatment: "Brain Tumor",
+      dr_name: "Shaurya Jadhav",
     },
     {
       date: "30/11/2022",
@@ -101,8 +99,8 @@ function PatientHeader() {
       patient_gender: "Male",
       patient_phone_no: "7656535674",
       patient_email: "sohampatil@gmail.com",
-      treatment: ,
-      dr_name: ,
+      treatment: "Cataract",
+      dr_name: "Dev Thakur",
     },
     {
       date: "09/12/2022",
@@ -112,19 +110,19 @@ function PatientHeader() {
       patient_gender: "Male",
       patient_phone_no: "8345066789",
       patient_email: "rohitmokashi@gmail.com",
-      treatment: ,
-      dr_name: ,
+      treatment: "Dengue",
+      dr_name: "Pratiksha Patil",
     },
     {
       date: "26/01/2023",
       patient_id: "210",
       patient_name: "Anushka Hire",
-      age: "10",
+      age: "16",
       patient_gender: "Female",
       patient_phone_no: "6465780202",
       patient_email: "anushkahire@gmail.com",
-      treatment: ,
-      dr_name: ,
+      treatment: "Acne Problem",
+      dr_name: "Eknath Pawar",
     },
   ];
 
