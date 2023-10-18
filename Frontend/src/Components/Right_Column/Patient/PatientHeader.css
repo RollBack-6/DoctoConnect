@@ -2,7 +2,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.navbar-doctor{
+.navbar-patient{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -18,7 +18,7 @@
 
 }
 
-.doctor-navbar2 {
+.patient-navbar2 {
     padding-top: 5px;
     padding-bottom: 5px;
     display: flex;
@@ -26,14 +26,7 @@
     justify-content: start;
 }
 
-.doctor-checkbox {
-    margin-left: 45%;
-}
-.unavailable {
-    margin-left: 80px;
-}
-
-.doctor-table {
+.patient-table {
     margin-top: 30px;
 }
 
