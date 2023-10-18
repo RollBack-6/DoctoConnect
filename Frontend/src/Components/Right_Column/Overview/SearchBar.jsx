@@ -3,28 +3,17 @@ import Statistics from "./Stats";
 import LineChart from "./LineChart";
 import BarChart from "./BarChart";
 import Searchbar from "../NavSearch/SearchBar";
+import DateDisplay from "./Date";
 
 function SearchBar() {
   return (
     <>
-      <div className="navbar">
+      <div className="Onavbar">
         <div className="Page-name">
           <h2>Overview</h2>
         </div>
-        <Searchbar />
-        <div className="aligment">
-          <img
-            className="N_image"
-            src="./Images/Notification.png"
-            alt="Overview"
-            width="30px"
-            height="30px"
-          />
-          <img className="search_image" src="./Images/Man.png" alt="Overview" />
-          <button className="img-btn" id="Overview">
-            <strong>Pratham Gaikwad</strong>
-          </button>
-        </div>
+        <DateDisplay/>
+
       </div>
       <Statistics />
       <div className="Charts">
