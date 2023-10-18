@@ -8,14 +8,14 @@ function Statistics() {
             <img className="stat-img" src="./Images/statCal.png" alt="Calander" />
             <p>
                 <strong>Number <br /></strong>
-                Appoinments
+                Appointments
             </p>
         </div>
         <div className="Appoinment-stat">
         <img className="stat-img" src="./Images/statOp.png" alt="Operations" />
             <p>
                 <strong>Number <br /></strong>
-                Opetaions 
+                Operations 
             </p>
         </div>
         <div className="Appoinment-stat">
@@ -28,8 +28,8 @@ function Statistics() {
           <div className="Appoinment-stat">
           <img className="stat-img" src="./Images/statDoct.png" alt="Doctors" />
             <p>
-                <strong>Doctor <br /></strong>
-                Opetaions
+                <strong>Number <br /></strong>
+                Doctor
             </p> 
           </div>
         </div>
