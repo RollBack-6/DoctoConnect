@@ -7,11 +7,11 @@ import Searchbar from "../NavSearch/SearchBar";
 function SearchBar() {
   return (
     <>
-       <div className="navbar">
+      <div className="navbar">
         <div className="Page-name">
           <h2>Overview</h2>
         </div>
-        <Searchbar/>
+        <Searchbar />
         <div className="aligment">
           <img
             className="N_image"
@@ -21,22 +21,19 @@ function SearchBar() {
             height="30px"
           />
           <img className="search_image" src="./Images/Man.png" alt="Overview" />
-          <button className="btn" id="Overview">
-            Name
+          <button className="img-btn" id="Overview">
+            <strong>Pratham Gaikwad</strong>
           </button>
         </div>
-
       </div>
-      <Statistics/>
+      <Statistics />
       <div className="Charts">
         <div className="Line">
-          <LineChart/>
-          </div>
+          <LineChart />
+        </div>
         <div className="Bar">
-          <BarChart/>
-          </div>
-         
-        
+          <BarChart />
+        </div>
       </div>
     </>
   );
