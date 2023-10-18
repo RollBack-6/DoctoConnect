@@ -20,8 +20,8 @@ function App() {
             <Route path="Overview" element={<SearchBar />} />
             <Route path="Appointment" element={<Appointment />} />
             <Route path="Doctor" element={<Doctor />} />
-            <Route path="Register-Patient" element={<RegistrationForm />} />
             <Route path="Patient" element={<Patient />} />
+            <Route path="Register-Patient" element={<RegistrationForm />} />
           </Routes>
         </div>
       </div>
