@@ -129,10 +129,7 @@ function PatientHeader() {
   return (
     <>
       <div className="navbar-patient">
-        <div className="heading">
           <h2>Patient</h2>
-        </div>
-        <Searchbar />
       </div>
 
       <div className="patient-navbar2">

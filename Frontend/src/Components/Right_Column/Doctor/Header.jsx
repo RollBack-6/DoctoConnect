@@ -113,10 +113,7 @@ function Header() {
   return (
     <>
       <div className="navbar-doctor">
-        <div className="heading">
           <h2>Doctor</h2>
-        </div>
-        <Searchbar />
       </div>
 
       <div className="doctor-navbar2">
