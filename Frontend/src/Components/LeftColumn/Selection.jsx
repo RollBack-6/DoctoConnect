@@ -1,22 +1,8 @@
-import React from 'react';
 import "./selection.css";
+import {useNavigate} from 'react-router-dom';
 
-function Selection(props) {
-  const handleRegisterClick = () => {
-    props.toggleRegistrationForm();
-  };
-
-  const handleOverviewClick = () => {
-    props.toggleOverview();
-  };
-
-  const handleAppointmentClick = () => {
-    props.toggleAppointment();
-  };
-
-  const handleDoctorClick = () => {
-    props.toggleDoctor();
-  };
+function Selection() {
+  const navigate = useNavigate();
 
   return (
     <>
@@ -28,32 +14,32 @@ function Selection(props) {
 
         <div className="Button_aligment">
           <img className="image" src="./images/image 1.png" alt="Overview" />
-          <button className="btn" id="Overview" onClick={handleOverviewClick}>Overview</button>
+          <button className="btn" onClick={()=>navigate('/Overview')} >Overview</button>
         </div>
 
         <div className="Button_aligment">
           <img className="image" src="./images/Appointments.png" alt="Appointment" />
-          <button className="btn" onClick={handleAppointmentClick}>Appointment</button>
+          <button className="btn" onClick={()=>navigate('/Appoinment')}>Appointment</button>
         </div>
 
         <div className="Button_aligment">
           <img className="image" src="./images/Departments.png" alt="Department" />
-          <button className="btn">Department</button>
+          <button className="btn" onClick={()=>navigate('/Department')}>Department</button>
         </div>
 
         <div className="Button_aligment">
           <img className="image" src="./images/Doctors.png" alt="Doctor" />
-          <button className="btn" onClick={handleDoctorClick}> Doctor</button>
+          <button className="btn" onClick={()=>navigate('/Doctor')} > Doctor</button>
         </div>
 
         <div className="Button_aligment">
           <img className="image" src="./images/patient.png" alt="Patient" />
-          <button className="btn">Patient</button>
+          <button className="btn" onClick={()=>navigate('/Patient')}>Patient</button>
         </div>
 
         <div className="Button_aligment">
           <img className="image" src="./images/Register Patient.png" alt="Register Patient" />
-          <button className="btn" onClick={handleRegisterClick}> Register Patient</button>
+          <button className="btn" onClick={()=>navigate('/Register-Patient')}> Register Patient</button>
         </div>
 
         <div className="Button_aligment">
@@ -70,4 +56,4 @@ function Selection(props) {
   );
 }
 
-export default Selection;
+export default Selection;
