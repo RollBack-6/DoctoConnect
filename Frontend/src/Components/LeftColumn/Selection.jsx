@@ -19,7 +19,7 @@ function Selection() {
 
         <div className="Button_aligment">
           <img className="image" src="./images/Appointments.png" alt="Appointment" />
-          <button className="btn" onClick={()=>navigate('/Appoinment')}>Appointment</button>
+          <button className="btn" onClick={()=>navigate('/Appointment')}>Appointment</button>
         </div>
 
         <div className="Button_aligment">
