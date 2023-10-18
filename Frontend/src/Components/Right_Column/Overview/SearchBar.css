@@ -2,11 +2,11 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.navbar{
+.Onavbar{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: -80px  ;
+  background: transparent;
 }
 
 .aligment{
@@ -33,7 +33,7 @@
 .img-btn{
   border: none;
   background-color: transparent;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
 }
 
@@ -66,6 +66,7 @@
   border-color: rgb(65, 65, 65);
   border-width: 2px;
   padding: 10px;  
+  margin-top: 10px;
 }
 .Bar{
   margin-left: 20px;
@@ -74,5 +75,6 @@
   border-color: rgb(65, 65, 65);
   border-width: 2px;
   padding: 10px;
+  margin-top: 10px;
   
 }
