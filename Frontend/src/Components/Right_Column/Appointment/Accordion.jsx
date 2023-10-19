@@ -196,7 +196,6 @@ const AccordionTable = () => {
                 filters={filters}
                 paginator
                 rows={4}
-                rowsPerPageOptions={[1, 2, 3, 4]}
                 totalRecords={data.length}
               >
                 <Column field="appt_id" header="Appointment Id" />
@@ -230,19 +229,11 @@ const AccordionTable = () => {
             <div className="table">
               <TabView>
                 <TabPanel header="Upcoming">
-                  <InputText
-                    className="input"
-                    onInput={(e) =>
-                      setFilters({
-                        global: { value: e.target.value, matchMode: FilterMatchMode.CONTAINS },
-                      })
-                    }
-                  />
                   <DataTable
                     value={dataAccordion2.filter((item) => item.status === "Upcoming")}
                     paginator
                     rows={4}
-                    rowsPerPageOptions={[1, 2, 3, 4]}
+                  
                     totalRecords={dataAccordion2.filter((item) => item.status === "Upcoming").length}
                   >
                     <Column field="appt_id" header="Appointment Id" />
@@ -255,19 +246,11 @@ const AccordionTable = () => {
                   </DataTable>
                 </TabPanel>
                 <TabPanel header="Completed">
-                  <InputText
-                    className="input"
-                    onInput={(e) =>
-                      setFilters({
-                        global: { value: e.target.value, matchMode: FilterMatchMode.CONTAINS },
-                      })
-                    }
-                  />
                   <DataTable
                     value={dataAccordion2.filter((item) => item.status === "Completed")}
                     paginator
                     rows={4}
-                    rowsPerPageOptions={[1, 2, 3, 4]}
+                    
                     totalRecords={dataAccordion2.filter((item) => item.status === "Completed").length}
                   >
                     <Column field="appt_id" header="Appointment Id" />
@@ -280,19 +263,11 @@ const AccordionTable = () => {
                   </DataTable>
                 </TabPanel>
                 <TabPanel header="Cancelled">
-                  <InputText
-                    className="input"
-                    onInput={(e) =>
-                      setFilters({
-                        global: { value: e.target.value, matchMode: FilterMatchMode.CONTAINS },
-                      })
-                    }
-                  />
                   <DataTable
                     value={dataAccordion2.filter((item) => item.status === "Cancelled")}
                     paginator
                     rows={4}
-                    rowsPerPageOptions={[1, 2, 3, 4]}
+                    
                     totalRecords={dataAccordion2.filter((item) => item.status === "Cancelled").length}
                   >
                     <Column field="appt_id" header="Appointment Id" />

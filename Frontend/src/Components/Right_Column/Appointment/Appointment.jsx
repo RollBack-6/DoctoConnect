@@ -20,4 +20,4 @@ function Appointment() {
   );
 }
 
-export default Patient;
+export default Appointment;
