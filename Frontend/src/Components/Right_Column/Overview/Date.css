@@ -1,4 +1,4 @@
-/* .navDate {
+.navDate {
   font-family: "Roboto", sans-serif;
   border-style: solid;
   border-radius: 20px;
@@ -7,20 +7,12 @@
   align-items: center;
   font-size: 19px;
   text-wrap: nowrap;
-} */
-.navDate {
-  font-family: "Roboto", sans-serif;
-  border-style: solid;
-  border-radius: 17px; /* Reduced border-radius to adjust for padding */
-  border-color: rgb(83, 83, 83);
-  border-width: 2px;
-  align-items: center;
-  font-size: 19px;
-  text-wrap: nowrap;
-  padding-right: 1%;
-  padding-left: 1%;
-  margin-left: 65%;
+  margin: 0px;
+  display: inline-block;
+  background-color: white;
+
 }
-.language{
-  margin-right: 3%;
+
+.dateStyle{
+  padding : 0px 10px;
 }
