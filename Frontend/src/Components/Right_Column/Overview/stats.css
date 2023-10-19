@@ -3,7 +3,7 @@
   flex-direction: row;
   border-style: solid;
   border-radius: 20px;
-  border-color: rgb(83, 83, 83);
+  border-color: rgb(0, 0, 0);
   border: "1px";
   padding: 10px 15px;
   width: 250px;
@@ -27,7 +27,7 @@
 }
 
 .Appoinment-stat:hover{
-  background: linear-gradient(to left,#a3eff1 5%,#54d5f1 35%,#0d99ba 75%);
+  background: linear-gradient(to right,#a3eff1 5%,#54d5f1 35%,#0d99ba 75%);  
 }
 
 .navbar{

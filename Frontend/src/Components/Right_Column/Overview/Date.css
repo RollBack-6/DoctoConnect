@@ -5,6 +5,6 @@
   border-color: rgb(83, 83, 83);
   border-width: 2px;
   align-items: center;
-  font-size: 19px;
-  text-wrap: nowrap;
+  font: size 110%;
+  text-wrap: nowrap;  
 }
