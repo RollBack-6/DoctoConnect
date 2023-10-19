@@ -1,0 +1,27 @@
+/* AppointmentTable.css */
+
+.app_Table {
+    /* Add your custom styles here */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 2%;
+  }
+  
+  .app_Table .p-datatable-header {
+    /* Styles for the header */
+    background-color: #f8f9fa;
+    font-weight: bold;
+  }
+  
+  .app_Table .p-datatable-row {
+    /* Styles for each row */
+  }
+  
+  .app_Table .p-datatable-row:hover {
+    /* Styles for a row on hover */
+    background-color: #e9ecef;
+  }
+.app_Table{
+
+}  

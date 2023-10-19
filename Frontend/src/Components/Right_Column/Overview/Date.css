@@ -7,4 +7,10 @@
   align-items: center;
   font-size: 19px;
   text-wrap: nowrap;
+  margin: 0px;
+  display: inline-block;
+}
+
+.dateStyle{
+  padding : 0px 10px;
 }
