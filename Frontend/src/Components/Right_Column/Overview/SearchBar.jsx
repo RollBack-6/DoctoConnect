@@ -2,10 +2,14 @@ import "./SearchBar.css";
 import Statistics from "./Stats";
 import LineChart from "./LineChart";
 import BarChart from "./BarChart";
-import Searchbar from "../NavSearch/SearchBar";
-import DateDisplay from "./Date";
+import DateDisplay from "./Date.jsx";
+import { useState } from "react";
+
+import AppointmentTable from "./AppointmentTable";
 
 function SearchBar() {
+
+
   return (
     <>
       <div className="Onavbar">
@@ -24,7 +28,11 @@ function SearchBar() {
           <BarChart />
         </div>
       </div>
+      <div className="AppointmentTable">
+        <AppointmentTable />
+      </div>
     </>
   );
 }
 export default SearchBar;
+

@@ -17,7 +17,7 @@
 
 .right {
   width: 80%;
-  margin-left: -5px;
+  /* margin-left: 0%; */
 }
 
 /* Clear floats after the columns */

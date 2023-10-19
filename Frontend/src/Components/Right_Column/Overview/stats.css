@@ -3,11 +3,13 @@
   flex-direction: row;
   border-style: solid;
   border-radius: 20px;
-  border-color: rgb(83, 83, 83);
+  border-color: rgb(0, 0, 0);
   border: "1px";
   padding: 10px 15px;
   width: 250px;
   border-width: 2px;
+  background-color: white;
+
 }
 .Stat-cointainer {
   display: flex;
@@ -24,10 +26,6 @@
   margin-right: 10px;
   margin-left: 10px;
   background-color: white;
-}
-
-.Appoinment-stat:hover{
-  background: linear-gradient(to left,#a3eff1 5%,#54d5f1 35%,#0d99ba 75%);
 }
 
 .navbar{
