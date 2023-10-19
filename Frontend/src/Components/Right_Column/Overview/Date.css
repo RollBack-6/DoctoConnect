@@ -5,6 +5,14 @@
   border-color: rgb(83, 83, 83);
   border-width: 2px;
   align-items: center;
-  font: size 110%;
-  text-wrap: nowrap;  
+  font-size: 19px;
+  text-wrap: nowrap;
+  margin: 0px;
+  display: inline-block;
+  background-color: white;
+
+}
+
+.dateStyle{
+  padding : 0px 10px;
 }

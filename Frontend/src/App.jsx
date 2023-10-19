@@ -23,6 +23,7 @@ function App() {
             <Route path="Doctor" element={<Doctor />} />
             <Route path="Patient" element={<Patient />} />
             <Route path="Register-Patient" element={<RegistrationForm />} />
+            <Route path="Login" element={< dasd/>} />
           </Routes>
         </div>
       </div>

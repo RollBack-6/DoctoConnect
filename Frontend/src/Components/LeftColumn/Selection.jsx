@@ -8,8 +8,7 @@ function Selection() {
     <>
       <div className='selection'>
         <div className="Logo">
-          <img className="img" src="./SVG_Images/Logo.svg" alt="Logo" width="80" height="80" />
-          <h2 className="hearder">DoctoConnect</h2>
+          <img className="img" src="./SVG_Images/LogoGroup.svg" alt="Logo" width="800" height="800" />
         </div>
 
         <div className="Button_aligment">
@@ -44,7 +43,7 @@ function Selection() {
 
         <div className="Button_aligment">
           <img className="image" src="./SVG_Images/logout.svg" alt="Logout" />
-          <button className="btn">Log Out</button>
+          <button className="btn" onClick={()=>navigate('/Login')}>Log Out</button>
         </div>
       </div>
     </>

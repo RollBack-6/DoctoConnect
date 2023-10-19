@@ -5,10 +5,12 @@
   left: 0;
   width: 20%; /* Adjust this value to set the width as needed */
   height: 100%;
-  background: linear-gradient(to top,#a3eff1 5%,#54d5f1 35%,#0d99ba 75%); 
-  padding: 0% 1%;
+  /* background: linear-gradient(to top,#a3eff1 5%,#54d5f1 35%,#0d99ba 75%);   */
   border-bottom-right-radius:20px ;
   border-top-right-radius:20px ;
+  box-shadow: grey;
+  padding-left: 1%;
+  border: solid black;
 }
 
 
@@ -23,6 +25,7 @@
   font-size:150%;
   border: none;
   text-align: left;
+  margin-left: 4%;
   /* border: 2px solid black; */
   }
   .btn:before {
@@ -32,7 +35,7 @@
     left: 0;
     width: 0%;
     height: 100%;
-    background: linear-gradient(to right,#a3eff1 5%,#54d5f1 35%,#0d99ba 75%);
+    background: linear-gradient(to right,#a3eff1 5%,#54d5f1 35%,#51d9f8 75%);
     transition: all 0.5s;
     z-index: -1;
   }
@@ -74,10 +77,10 @@
   }
   
   .img{
-    max-width: 100%;
+    max-width: 85%;
     height: auto;
-    margin-left: 1%;
     margin-bottom: 5%;
+    margin-right: 5%;
   }
   
   .hearder{
