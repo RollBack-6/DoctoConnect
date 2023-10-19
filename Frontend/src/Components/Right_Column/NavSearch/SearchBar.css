@@ -1,13 +1,13 @@
 .searchbar{
-    margin: 2%;
+    
     border-style: solid;
+    border-radius: 40px 0 0 40px;
     display: flex;
     border-width: thin;
     align-items: center;
-    border-radius: 30px;
     padding: 10px;
     height: 35px;
-    background-color: white;
+    background-color: transparent;
 }
 
 .searchinput {
@@ -16,10 +16,32 @@
     border: none;
     padding: 10px;
     outline-color: transparent;
+    background-color: transparent;
 }
 
 .searchbutton {
-    background-color: transparent;
     border: none;
-    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 35px;
+    background-color: transparent;
+    z-index: -1;
 }
+
+.searchbar1 {
+    border-style: solid;
+    border-radius: 0 40px 40px 0;
+    display: flex;
+    border-width: thin;
+    align-items: center;
+    border-left: transparent;
+    padding: 10px;
+    height: 35px;
+    background-color: transparent;
+    
+}
+.searchbar1:hover{
+    cursor: pointer;
+}
+

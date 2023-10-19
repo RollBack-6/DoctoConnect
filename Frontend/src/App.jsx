@@ -2,12 +2,12 @@ import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
 import Selection from "./Components/LeftColumn/Selection";
-import RegistrationForm from
-"./Components/Right_Column/registerPatient/registerPatient.jsx";
+import RegistrationForm from "./Components/Right_Column/registerPatient/registerPatient.jsx";
 import SearchBar from "./Components/Right_Column/Overview/SearchBar.jsx";
 import Appointment from "./Components/Right_Column/Appointment/Appointment.jsx";
 import Doctor from "./Components/Right_Column/Doctor/Doctor.jsx";
 import Patient from "./Components/Right_Column/Patient/Patient.jsx";
+import Emergency from "./Components/Right_Column/Emergency/Emergency.jsx";
 
 function App() {
   return (
@@ -23,7 +23,8 @@ function App() {
             <Route path="Doctor" element={<Doctor />} />
             <Route path="Patient" element={<Patient />} />
             <Route path="Register-Patient" element={<RegistrationForm />} />
-            <Route path="Login" element={< dasd/>} />
+            <Route path="Emergency" element={<Emergency />} />
+            <Route path="Login" element={<dasd />} />
           </Routes>
         </div>
       </div>

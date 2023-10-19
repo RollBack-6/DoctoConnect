@@ -1,0 +1,13 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+  }
+
+  .emergency-search {
+    display: flex;
+    margin-top: 15%;
+    margin-left: 30%;
+
+  }
+
+  
