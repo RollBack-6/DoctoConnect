@@ -67,7 +67,9 @@
   border-width: 2px;
   padding: 10px;  
   margin-top: 10px;
-  flex: 65%;
+  flex: 60%;
+  background-color: white;
+
 }
 .Bar{
   margin-left: 20px;
@@ -77,5 +79,5 @@
   border-width: 2px;
   padding: 10px;
   margin-top: 10px;
-  flex:35%;
+  background-color: white;
 }
