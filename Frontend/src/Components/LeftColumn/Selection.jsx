@@ -44,7 +44,7 @@ function Selection() {
 
         <div className="Button_aligment">
           <img className="image" src="./images/Emergency.png" alt="emergency" />
-          <button className="btn">Emergency</button>
+          <button className="btn" onClick={()=>navigate('/Emergency')}> Emergency</button>
         </div>
 
         <div className="Button_aligment">

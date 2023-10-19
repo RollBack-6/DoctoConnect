@@ -7,6 +7,7 @@ import SearchBar from "./Components/Right_Column/Overview/SearchBar.jsx";
 import Appointment from "./Components/Right_Column/Appointment/Appointment.jsx";
 import Doctor from "./Components/Right_Column/Doctor/Doctor.jsx";
 import Patient from "./Components/Right_Column/Patient/Patient.jsx";
+import Emergency from "./Components/Right_Column/Emergency/Emergency.jsx";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="Doctor" element={<Doctor />} />
             <Route path="Patient" element={<Patient />} />
             <Route path="Register-Patient" element={<RegistrationForm />} />
+            <Route path="Emergency" element={<Emergency />} />
           </Routes>
         </div>
       </div>
