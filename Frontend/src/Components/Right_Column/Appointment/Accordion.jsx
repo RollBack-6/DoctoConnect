@@ -178,7 +178,7 @@ const AccordionTable = () => {
       <div className="accordion">
         <div className="accordion-header" onClick={toggleAccordion1}>
           CheckIn
-          <img className="drpbottom" src="./Images/DropDown.png" />
+          <img className="drpbottom" src="./SVG_Images/dropdown.svg" />
         </div>
         {accordion1Visible && (
           <div className="accordion-content">
@@ -222,7 +222,7 @@ const AccordionTable = () => {
       <div className="accordion">
         <div className="accordion-header" onClick={toggleAccordion2}>
           Appointment
-          <img className="drpbottom" src="./Images/DropDown.png" />
+          <img className="drpbottom" src="./SVG_Images/dropdown.svg" />
         </div>
         {accordion2Visible && (
           <div className="accordion-content">

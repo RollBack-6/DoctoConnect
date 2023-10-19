@@ -20,7 +20,7 @@ function Calendar() {
           placeholderText="Select a date"
           dateFormat="dd/MM/yyyy" // Customize date format as needed
         />
-        <img className="icon" src = "./Images/Calendar.png" height="20px" width="20px"/>
+        <img className="icon" src = "./SVG_Images/calendar.svg" height="20px" width="20px"/>
 
       </div>
     );

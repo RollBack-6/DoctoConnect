@@ -12,7 +12,8 @@ function Searchbar(){
           />
           <button className="searchbutton">
             <img
-              src="./Images/Search.png"
+              src="../SVG_Images/search.svg
+              "
               width="26px"
               height="26
                 px"

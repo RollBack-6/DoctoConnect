@@ -16,7 +16,8 @@ function SearchBar() {
         <div className="Page-name">
           <h2>Overview</h2>
         </div>
-        <DateDisplay />
+        <DateDisplay/>
+
       </div>
       <Statistics />
       <div className="Charts">
@@ -34,3 +35,4 @@ function SearchBar() {
   );
 }
 export default SearchBar;
+
