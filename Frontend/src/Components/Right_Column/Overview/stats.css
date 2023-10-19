@@ -7,11 +7,14 @@
   border: "1px";
   padding: 10px 15px;
   width: 250px;
+  border-width: 2px;
 }
 .Stat-cointainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  border-width: 1px;
+  margin-top: 20px;
 }
 
 .stat-img {
@@ -20,4 +23,13 @@
   height: 70px;
   margin-right: 10px;
   margin-left: 10px;
+  background-color: white;
+}
+
+.Appoinment-stat:hover{
+  background: linear-gradient(to left,#a3eff1 5%,#54d5f1 35%,#0d99ba 75%);
+}
+
+.navbar{
+  background: #F5FEFF;
 }

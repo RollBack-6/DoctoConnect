@@ -1,16 +1,21 @@
+<<<<<<< HEAD
 
 import { useState } from 'react';
+=======
+import { Routes, Route } from "react-router-dom";
+
+>>>>>>> f34e8a86858e40c7e260613acf01fac5340a2f34
 import "./App.css";
 import Selection from "./Components/LeftColumn/Selection";
 import RegistrationForm from
 "./Components/Right_Column/registerPatient/registerPatient.jsx";
 import SearchBar from "./Components/Right_Column/Overview/SearchBar.jsx";
-import Appointment from './Components/Right_Column/Appointment/Appointment.jsx';
+import Appointment from "./Components/Right_Column/Appointment/Appointment.jsx";
 import Doctor from "./Components/Right_Column/Doctor/Doctor.jsx";
-import { BrowserRouter,Routes, Route } from 'react-router-dom';
-
+import Patient from "./Components/Right_Column/Patient/Patient.jsx";
 
 function App() {
+<<<<<<< HEAD
   const [showRegistrationForm, setShowRegistrationForm] = useState(false);
   const [showOverview, setShowOverview] = useState(true);
   const [showAppointment, setShowAppointment] = useState(false);
@@ -45,23 +50,31 @@ function App() {
     setShowDoctor(true);
   };
 
+=======
+>>>>>>> f34e8a86858e40c7e260613acf01fac5340a2f34
   return (
     <>
       <div className="row">
         <div className="column left">
+<<<<<<< HEAD
           <Selection
             toggleRegistrationForm={toggleRegistrationForm}
             toggleOverview={toggleOverview}
             toggleAppointment={toggleAppointment}
             toggleDoctor={toggleDoctor}
           />
+=======
+          <Selection />
+>>>>>>> f34e8a86858e40c7e260613acf01fac5340a2f34
         </div>
         <div className="column right">
-          {showRegistrationForm && <RegistrationForm/>}
-          {/* {<LoginPage/>} */}
-          {showOverview && <SearchBar/>}
-          {showAppointment && <Appointment/>}
-          {showDoctor && <Doctor/>}
+          <Routes>
+            <Route path="Overview" element={<SearchBar />} />
+            <Route path="Appointment" element={<Appointment />} />
+            <Route path="Doctor" element={<Doctor />} />
+            <Route path="Patient" element={<Patient />} />
+            <Route path="Register-Patient" element={<RegistrationForm />} />
+          </Routes>
         </div>
       </div>
     </>
