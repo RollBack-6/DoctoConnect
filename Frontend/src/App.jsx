@@ -2,7 +2,8 @@ import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
 import Selection from "./Components/LeftColumn/Selection";
-import RegistrationForm from "./Components/Right_Column/registerPatient/registerPatient.jsx";
+import RegistrationForm from
+"./Components/Right_Column/registerPatient/registerPatient.jsx";
 import SearchBar from "./Components/Right_Column/Overview/SearchBar.jsx";
 import Appointment from "./Components/Right_Column/Appointment/Appointment.jsx";
 import Doctor from "./Components/Right_Column/Doctor/Doctor.jsx";

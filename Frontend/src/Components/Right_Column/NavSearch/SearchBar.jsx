@@ -4,9 +4,15 @@ function Searchbar() {
   return (
     <>
       <div className="searchbar">
-        <input className="searchinput" type="text" placeholder="Search.." />
-        <button className="searchbutton" type="submit">
-          <img src="./Images/Search.png" width="26px" height="26px"></img>
+        <input className="searchinput" type="text" placeholder="Search" />
+      </div>
+      <div className="searchbar1">
+        <button className="searchbutton">
+          <img
+            className="search-image"
+            src="./SVG_Images/Search.svg"
+            width="35px"
+          ></img>
         </button>
       </div>
     </>
