@@ -13,7 +13,7 @@ function SearchBar() {
           <h2>Overview</h2>
         </div>
         <DateDisplay/>
-
+        <img className="language" src="./SVG_Images/translate.svg" />
       </div>
       <Statistics />
       <div className="Charts">
@@ -28,3 +28,4 @@ function SearchBar() {
   );
 }
 export default SearchBar;
+
