@@ -4,9 +4,32 @@
 
 .Onavbar{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   background: transparent;
+}
+
+.Page-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.translate {
+  height: 40px;
+}
+
+.translate-btn {
+  background: transparent;
+  border: none;
+}
+
+.translate-btn:hover {
+  cursor:pointer;
+}
+
+.Hospital-name {
+  display: flex;
+  justify-content: space-between;
 }
 
 .aligment{
@@ -15,8 +38,6 @@
    margin-bottom: 9%;
    flex-direction: row;
    justify-content: space-between;
-   
-  
 }
 
 .H_image{

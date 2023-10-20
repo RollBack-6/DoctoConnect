@@ -8,16 +8,19 @@ import { useState } from "react";
 import AppointmentTable from "./AppointmentTable";
 
 function SearchBar() {
-
-
   return (
     <>
       <div className="Onavbar">
         <div className="Page-name">
           <h2>Overview</h2>
+          <button className="translate-btn">
+            <img className="translate" src="./SVG_Images/translate.svg" />
+          </button>
         </div>
-        <DateDisplay/>
-
+        <div className="Hospital-name">
+          <h3>Aditya Birla Hospital</h3>
+          <DateDisplay />
+        </div>
       </div>
       <Statistics />
       <div className="Charts">
@@ -35,4 +38,3 @@ function SearchBar() {
   );
 }
 export default SearchBar;
-

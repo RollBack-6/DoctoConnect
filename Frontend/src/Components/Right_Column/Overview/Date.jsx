@@ -14,7 +14,7 @@ class DateDisplay extends React.Component {
       <div className="navDate">
         <strong >
           <div className="dateStyle">
-            <p>{this.state.currentDate.toDateString()}</p>
+            <h3>{this.state.currentDate.toDateString()}</h3>
           </div>
         </strong>
       </div>
