@@ -7,8 +7,7 @@ import LoginPageN from "./Components/Login/LoginPageN";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
-    {/* <App /> */}
-    <LoginPageN/>
+    <App /> 
     </BrowserRouter>
     
 )
