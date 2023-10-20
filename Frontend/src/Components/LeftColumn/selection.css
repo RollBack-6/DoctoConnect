@@ -8,9 +8,12 @@
   /* background: linear-gradient(to top,#a3eff1 5%,#54d5f1 35%,#0d99ba 75%);   */
   border-bottom-right-radius:20px ;
   border-top-right-radius:20px ;
-  box-shadow: grey;
-  padding-left: 1%;
-  border: solid black;
+  /* box-shadow: grey;
+  padding-left: 1%; */
+  /* border: solid rgb(43, 38, 38); */
+  background-color: #b0dbdb;
+  padding: 10px;
+  box-shadow: 5px 10px 10px #888888;
 }
 
 
