@@ -1,60 +1,44 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap");
-
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
-}
-
-body {
+} */
+.Loginbody {
+  width: 99vw;
+  height: 97.5vh;
   display: flex;
+  background: linear-gradient(to left, #a3eff1, #0d99ba);
+}
+.LoginContainer {
+  width: 25%;
+  left: 66%;
+  padding: 0 30px;
+  position: fixed;
   align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  width: 100%;
-  padding: 0 10px;
-}
-
-body::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to top,#A3EFF1,#0d99ba);
-  background-position: center;
-  background-size: cover;
-}
-
-.wrapper {
-  width: 100%;
-  border-radius: 8px;
-  padding: 30px;
   text-align: center;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(9px);
-  -webkit-backdrop-filter: blur(9px);
-  background: #ffff;
+  top: 24%;
+  background: #01286623;
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0);
 }
-
 form {
   display: flex;
   flex-direction: column;
 }
-
 h2 {
+  margin-top: 10px;
   font-size: 2rem;
   margin-bottom: 20px;
   color: #000;
 }
 
-.input-field {
+.LoginInput {
   position: relative;
   border-bottom: 2px solid #000;
   margin: 15px 0;
 }
 
-.input-field label {
+.LoginInput label {
   position: absolute;
   top: 50%;
   left: 0;
@@ -65,9 +49,7 @@ h2 {
   transition: 0.15s ease;
 }
 
-
-
-.input-field input {
+.LoginInput input {
   width: 100%;
   height: 40px;
   background: transparent;
@@ -77,15 +59,15 @@ h2 {
   color: #000;
 }
 
-.input-field input:focus ~ label,
-.input-field input:valid ~ label {
+.LoginInput input:focus ~ label,
+.LoginInput input:valid ~ label {
   font-size: 0.8rem;
   font-weight: bold;
-  top: 10px;
+  top: 10%;
   transform: translateY(-120%);
 }
 
-.forget {
+.LoginForget {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -93,7 +75,7 @@ h2 {
   color: #000;
 }
 
-.input-field span {
+.LoginInput span {
   width: 2rem;
   height: 100%;
   position: absolute;
@@ -115,28 +97,39 @@ h2 {
   accent-color: #000;
 }
 
-.forget label {
+.LoginForget label {
   display: flex;
   align-items: center;
 }
 
-.forget label p {
+.LoginForget label p {
   margin-left: 8px;
+  font-size: 14px;
 }
 
-.wrapper a {
+.Loginmsg {
+  color: red;
+  font-size: 12px;
+  margin-right: 70%;
+  text-wrap: nowrap;
+  margin-bottom: 2%;
+  margin-top: -2%;
+}
+.LoginContainer a {
   color: #000;
   text-decoration: none;
+  font-size: 14px;
 }
 
-.wrapper a:hover {
+.LoginContainer a:hover {
   text-decoration: underline;
+  color: blue;
 }
 
-button {
-  background: #0d99ba;
+.LoginButton button {
+  background: #03193b;
   color: #fff;
-  font-weight: 600;
+  font-weight: 300;
   border: none;
   padding: 12px 20px;
   cursor: pointer;
@@ -144,16 +137,24 @@ button {
   font-size: 16px;
   border: 2px solid transparent;
   transition: 0.3s ease;
+  margin-bottom: 20px;
 }
 
-button:hover {
-  color: #0d99ba;
-  border-color: #0d99ba;
+.LoginButton button:hover {
+  color: #03193b;
+  border-color: #03193b;
   background: rgba(255, 255, 255, 0.15);
 }
 
-.register {
-  text-align: center;
-  margin-top: 30px;
-  color: #000;
+.Logincurvecontainer {
+  width: 60%;
+  border-radius: 0 0 100% 0;
+  background: #03193b;
+}
+
+.Loginleftpanel img {
+  width: 40%;
+  display: flex;
+  margin-left: 20%;
+  margin-top: 10%;
 }
