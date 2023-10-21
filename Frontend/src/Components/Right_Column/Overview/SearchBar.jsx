@@ -3,7 +3,6 @@ import Statistics from "./Stats";
 import LineChart from "./LineChart";
 import BarChart from "./BarChart";
 import DateDisplay from "./Date.jsx";
-import { useState } from "react";
 
 import AppointmentTable from "./AppointmentTable";
 
